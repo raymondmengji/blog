@@ -14,9 +14,7 @@ Use markdown to write blog posts!
 
 Blog post markdown files are required to be in this format:
 
-```
-YEAR-MONTH-DAY-title.md
-```
+`YEAR-MONTH-DAY-title.md`
 
 ## section three
 
