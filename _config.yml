@@ -1,0 +1,61 @@
+# Site settings
+title: CS Pedagogy
+description: >- # site description
+  A blog featuring pedagogical articles written by EECS uGSI's, GSI's, and Professors at UC Berkeley. Hosted by the
+  CS 161 course staff, featuring guest posts from other computer science courses on campus.
+lang: en-US # default lang
+timezone: US/Pacific # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/cs161-staff/pedagogy # site repo [optional]
+mode: light # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Pedagogy
+  bio: >- # tell to the world
+    This blog features notes, reflections, and articles written by EECS uGSI's, GSI's, and professors at UC Berkeley.
+    It's jointly hosted by CS 161 (Computer Security) and 61C (Computer Architecture).
+  username: cs161 # general username
+  github: cs161-staff # github username
+  twitter: # twitter username
+  facebook: # facebook username
+  email: cs161-staff@berkeley.edu # email adress
+  avatar: /assets/img/evanbot.png # change with your own avatar
+
+# URL settings
+url: "https://pedagogy.cs161.org" #
+baseurl:
+permalink: pretty
+google_analytics: G-SP8B044YSR
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Homepage limit posts
+number_of_posts: 100
+
+# Build settings
+remote_theme: cs161-staff/jekyll-klise@v1.2.1
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
