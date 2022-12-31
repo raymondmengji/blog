@@ -1,33 +1,28 @@
 # Site settings
-title: CS Pedagogy
+title: sab's blog
 description: >- # site description
-  A blog featuring pedagogical articles written by EECS uGSI's, GSI's, and Professors at UC Berkeley. Hosted by the
-  CS 161 course staff, featuring guest posts from other computer science courses on campus.
+  sab's blog
 lang: en-US # default lang
 timezone: US/Pacific # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/cs161-staff/pedagogy # site repo [optional]
 mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Pedagogy
+  name: sab
   bio: >- # tell to the world
-    This blog features notes, reflections, and articles written by EECS uGSI's, GSI's, and professors at UC Berkeley.
-    It's jointly hosted by CS 161 (Computer Security) and 61C (Computer Architecture).
-  username: cs161 # general username
-  github: cs161-staff # github username
-  twitter: # twitter username
-  facebook: # facebook username
-  email: cs161-staff@berkeley.edu # email adress
+    i'm sab!
+  email: raymondji@berkeley.edu # TODO: change email
   avatar: /assets/img/evanbot.png # change with your own avatar
 
 # URL settings
-url: "https://pedagogy.cs161.org" #
+url: "sab-blog.raymondji.com" # TODO: change site url
 baseurl:
 permalink: pretty
-google_analytics: G-SP8B044YSR
-fb_appid:
+google_analytics: G-SP8B044YSR # should be unnecessary
+fb_appid: # should be unneccessary
+
+# jekyll/markdown setting, not necessary to change
 
 # Collection setting
 collections:
