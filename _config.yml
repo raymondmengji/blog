@@ -47,7 +47,7 @@ defaults:
 number_of_posts: 100
 
 # Build settings
-remote_theme: cs161-staff/jekyll-klise@v1.2.1
+remote_theme: raymondmengji/jekyll-klise
 
 # Plugins
 plugins:
