@@ -1,7 +1,7 @@
 # Site settings
-title: sab's blog
+title: raymond's blog
 description: >- # site description
-  sab's blog
+  raymond's blog
 lang: en-US # default lang
 timezone: US/Pacific # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -9,14 +9,13 @@ mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: sab
+  name: Raymond Ji
   bio: >- # tell to the world
-    i'm sab!
+    Hi, this is Raymond. I will attempt to document my technical learning outside of work in this blog.
   email: raymondji@berkeley.edu # TODO: change email
-  avatar: /assets/img/dino.png # change with your own avatar
 
 # URL settings
-url: "sab-blog.raymondji.com" # TODO: change site url
+url: "blog.raymondji.com" # TODO: change site url
 baseurl:
 permalink: pretty
 google_analytics: G-SP8B044YSR # should be unnecessary
